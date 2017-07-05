@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+
+html, body, section, div { height: 100%; }
+body { font-family: 'Source Sans Pro', sans-serif; font-size: 1.25rem; line-height: 150%; }
+section { width: 100%; }
+article { position: relative; top: 50%; left: 50%; padding: 1rem; transform: translate(-50%, -50%); }
+h1 { font-size: 1.75rem; margin: 0 0 0.75rem 0; }
+a:hover { color: #f16622; }
+
+/* Pattern styles */ 
+.left-half { background: url('/../images/frontend/login-left-side-img.jpg') no-repeat; background-size: cover; float: left; width: 50%; color: #FFF; text-align: center; font-size: 19px; }
+.login-logo { margin-bottom: 15px; }
+.right-half { background-color: #FFF; float: left; width: 50%; padding: 8%; padding-right: 15%; }
+
+.right-half h4 { font-size: 26px; font-weight: 400; color: #363636; margin-bottom: 30px; }
+.form-group { margin-bottom: 20px; }
+label { font-size: 15px; font-weight: 600; }
+.form-control { height: 40px; border-color: #9e9e9e; color: #363636; font-size: 16px; }
+.right-half p strong { line-height: 24px; font-size: 16px; color: #363636; font-weight: 600; }
+.right-half p a { font-size: 15px; text-decoration: underline; color: #363636; transition: all 0.2s }
+.right-half p a:hover { color: #f16622; }
+
+.btn-default { background: #f16622; text-transform: uppercase; color: #FFF; border: none; font-size: 16px; padding: 9px 20px; transition: all 0.2s; }
+.btn-default:hover, .btn-default.focus, .btn-default:focus, .btn-default.active, .btn-default:active, .btn-default:active:focus { background: #e55c18; color: #FFF; outline: none; }
+
+.btn-primary { background: #767676; border-color: #767676; }
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active, .btn-primary:active, .btn-primary:active:focus { background: #6d6d6d; color: #FFF; outline: none; }
+
+.btn-bs-file { position:relative; }
+.btn-bs-file input[type="file"]{ position: absolute; top: -9999999; filter: alpha(opacity=0); opacity: 0; width:0; height:0; outline: none; cursor: inherit; }
+.file-upload-note { font-size: 14px; color: #e90202; font-weight: 600; margin-top: 5px; }
+.file-upload-list-preview { list-style: none; margin: 0px; padding: 0px; }
+.file-upload-list-preview li { font-size: 16px; color: #363636; font-weight: 600; line-height: 28px; }
+
+
+.forgot-pass a { font-size: 16px; color: #363636; font-weight: 600; line-height: 30px; text-decoration: none !important; }
+
+.left-half-signup-1 { background: url('/../images/frontend/signup-bg-1.jpg') no-repeat; background-size: cover; float: left; width: 50%; color: #FFF; text-align: left; font-size: 19px; padding: 8%; }
+.left-half-signup-2 { background: url('/../images/frontend/signup-bg-2.jpg') no-repeat; background-size: cover; float: left; width: 50%; color: #FFF; text-align: left; font-size: 19px; padding: 8%; }
+.left-half-signup-3 { background: url('/../images/frontend/signup-bg-3.jpg') no-repeat; background-size: cover; float: left; width: 50%; color: #FFF; text-align: left; font-size: 19px; padding: 8%; }
+.testimonial-text { top: 90%; }
+.textmonial-says { font-style: italic; font-size: 18px; line-height: 24px; }
+.testis-name { text-transform: uppercase; font-size: 18px; font-weight: 600; margin-top: 25px; line-height: 24px; margin-bottom: 0px; }
+.testis-post-name { font-size: 16px; line-height: 20px; }
+.step-name { font-size: 22px; }
+
+
+/* =============================================
+* RADIO BUTTONS
+=============================================== */
+
+.who-are { display: block; margin-bottom: 20px; }
+.who-are-name { font-size: 15px; font-weight: 600; margin-left: 10px; }
+#radios label { cursor: pointer; position: relative; }
+
+#radios label + label { margin-left: 15px; }
+input[type="radio"] { opacity: 0; /* hidden but still tabable */ position: absolute; }
+input[type="radio"] + span { color: #B3CEFB; border-radius: 50%; padding: 14px; transition: all 0.4s; -webkit-transition: all 0.4s; padding-left: 11px; padding-right: 10px; background-color: #d9d9d9; }
+input[type="radio"]:checked + span { color: #D9E7FD; background-color: #f16622; }
+input[type="radio"]:focus + span { color: #fff; }

@@ -1,0 +1,88 @@
+/* CSS Document */
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (min-width : 320px) {   }
+
+/* Extra Small Devices, Phones */ 
+
+@media only screen and (min-width : 480px) {   }
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width : 768px) {  }
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width : 992px) {   }
+
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width : 1200px) {  
+
+ }
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {  }
+
+
+@media only screen and (max-width : 1200px) { 
+
+ }
+
+
+/* Medium Devices, Desktops */
+
+ @media only screen and (max-width : 1024px) { 
+    .signup-half-1 { padding-right: 8%; }
+    .testimonial-text { top: 85%; }
+  }
+@media only screen and (max-width : 992px) {  }
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) { 
+    .right-half { width: 100% !important; padding-left: 15px; padding-right: 15px; }
+    .right-half { height: 100%; }
+    .signup-half-1 {  }
+ }
+
+/* Extra Small Devices, Phones */ 
+
+@media only screen and (max-width : 736px) { 
+    .right-half { height: 150%; }  
+    .signup-half-1 { height: 230%; }
+ }
+@media only screen and (max-width : 667px) { 
+
+ }
+@media only screen and (max-width : 600px) {  }
+
+@media only screen and (max-width : 568px) { 
+    .right-half { height: 200%; }
+    .signup-half-1 { height: 280%; }
+ }
+@media only screen and (max-width : 480px) {  }
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (max-width : 414px) { 
+    .right-half { height: 100%; }
+}
+@media only screen and (max-width : 384px) { 
+    .right-half { height: 100%; }  
+    .signup-half-1 { height: 120%; }
+ }
+@media only screen and (max-width : 320px) { 
+    .right-half { height: 100%; }
+    .signup-half-1 { height: 150%; }
+    .who-are-name { margin-top: 10px; display: block; margin-left: 0px; }
+ }
